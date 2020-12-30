@@ -1,0 +1,18 @@
+$bg-img: url('../assets/hero-background.svg');
+
+.hero-container {
+    height: 100vh;
+    background-image: $bg-img;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero-content {
+        min-width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
