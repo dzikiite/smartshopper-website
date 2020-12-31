@@ -4,6 +4,9 @@ import './App.scss';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Steps from './components/Steps';
+import Brands from './components/Brands';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <NavBar />
       <HeroSection />
       <Steps />
+      <Brands />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
