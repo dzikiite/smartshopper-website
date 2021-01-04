@@ -14,6 +14,13 @@ $bg-img: url('../assets/hero-background.svg');
         height: 100%;
         display: flex;
         align-items: center;
+        animation: title-animation .5s ease-in;
+
+        @keyframes title-animation {
+            0% {transform: translateX(-100%); opacity: 0}
+            85% {transform: translateX(10%); opacity: .5;}
+            100% {transform: translateX(0); opacity: 1;}
+        }
     }
 }
 

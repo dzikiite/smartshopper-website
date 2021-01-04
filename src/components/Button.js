@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import '../styles/Button.scss';
 
 const Button = ({ text, closeMenu }) => {
-    const handleCloseMenu = () => {
+    const handleButtonClick = () => {
         if (text === 'Powrót') closeMenu();
+        else if (text === 'Logowanie') alert('Apka będzie podpięta wkrótce...');
     }
 
     return ( 
             <button 
-            onClick={handleCloseMenu}>
+            onClick={handleButtonClick}>
             {text}
             </button>
      );
