@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/Testimonials.scss';
-
 import avatar from '../assets/testimonial-avatar.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Testimonials = () => {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            duration: 600,
+        });
+    }, []);
+
     return ( 
-        <div className="testimonials-container">
+        <div className="testimonials-container" data-aos="fade-up">
             <h2>Korzystają z aplikacji</h2>
             <p>Oni już robią inteligentne zakupy, Twoja kolej!</p>
             <div className="testimonials">

@@ -5,19 +5,11 @@ import MobileMenu from './MobileMenu';
 import '../styles/NavBar.scss';
 import mobileMenuIcon from '../assets/mobile-menu-icon.svg';
 import useIsMobile from '../utils/useIsMobile';
-import { useSpring, animated } from 'react-spring';
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const handleMenuIconClick = () => setIsMenuOpen(!isMenuOpen);
-
-    const mobileMenuAnimation = useSpring({
-        config: {
-            duration: 150,
-        },
-        opacity: isMenuOpen ? 1 : 0,
-    })
 
     const navButton = useIsMobile()
     ? <img 
@@ -28,11 +20,9 @@ const NavBar = () => {
     : <Button text='Logowanie' />;
 
     const mobileMenu = isMenuOpen
-    ?   <animated.div style={mobileMenuAnimation}>
-            <MobileMenu 
-            closeMenu={handleMenuIconClick}
-            isMenuOpen={isMenuOpen}/> 
-        </animated.div>
+    ?  <MobileMenu 
+        closeMenu={handleMenuIconClick}
+        isMenuOpen={isMenuOpen}/> 
     : null;
 
     return ( 

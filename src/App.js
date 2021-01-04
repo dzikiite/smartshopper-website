@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.scss';
 
 import NavBar from './components/NavBar';
@@ -9,7 +9,6 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 function App() {
-
   return (
     <>
       <NavBar />

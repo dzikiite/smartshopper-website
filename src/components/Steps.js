@@ -1,10 +1,18 @@
-import React from 'react';
-
+import React, {useEffect} from 'react';
 import '../styles/Steps.scss'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Steps = () => {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            duration: 600,
+        });
+    }, []);
+
     return ( 
-        <section className="steps-container">
+        <section className="steps-container" data-aos="fade-up">
                 <h2>Jak to działa?</h2>
                 <p>Pomagamy zakupowiczom uporządkować zakupy.</p>
                 <div className="steps">
