@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react';
-import './App.scss';
+import React from 'react';
+import './styles/GlobalStyles.scss';
 
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';

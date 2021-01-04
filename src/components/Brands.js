@@ -1,12 +1,14 @@
 import React, {useEffect} from 'react';
 import '../styles/Brands.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import hm from '../assets/hm-logo.svg';
 import pull from '../assets/pull-logo.svg';
 import bershka from '../assets/bershka-logo.svg';
 import house from '../assets/house-logo.svg';
 import sinsay from '../assets/sinsay-logo.svg';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Brands = () => {
     useEffect(() => {

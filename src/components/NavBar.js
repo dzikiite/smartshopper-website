@@ -4,7 +4,7 @@ import Button from './Button';
 import MobileMenu from './MobileMenu';
 import '../styles/NavBar.scss';
 import mobileMenuIcon from '../assets/mobile-menu-icon.svg';
-import useIsMobile from '../utils/useIsMobile';
+import useIsMobile from '../hooks/useIsMobile';
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
