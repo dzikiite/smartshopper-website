@@ -11,7 +11,7 @@ const Testimonials = () => {
             <div className="testimonials">
                 <div className="testimonials--item">
                     <span>
-                        <h3>Przydatna aplikacja</h3>
+                        <h3>Super sprawa!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
                     </span>
                     <img src={avatar} alt="avatar"/>
@@ -20,7 +20,7 @@ const Testimonials = () => {
                 </div>
                 <div className="testimonials--item">
                     <span>
-                        <h3>Intuicyjny design</h3>
+                        <h3>Super sprawa!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
                     </span>
                     <img src={avatar} alt="avatar"/>

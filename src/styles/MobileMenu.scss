@@ -1,0 +1,41 @@
+.mobile-menu-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 10;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    overflow-y: hidden;
+
+    button {
+        width: 20%;
+    }
+
+    img {
+        padding-left: 5rem;
+    }
+
+    @media (max-width: 1100px) {
+        button {
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        button {
+            width: 70%;
+        }
+
+        .close-menu-icon {
+            top: 2rem;
+            right: 2rem;
+        }
+    }
+}

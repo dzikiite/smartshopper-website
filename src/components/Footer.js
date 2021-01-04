@@ -10,13 +10,13 @@ const Footer = () => {
     return ( 
         <div className="footer-container">
             <div className="footer">
-                <img src={logo} alt="logo-smartshopper"/>
+                <img src={logo} alt="logo-smartshopper" className="logo-footer"/>
                 <p>&copy; 2020 smartShopper. All rights reserved.</p>
                 <div className="social-media">
-                    <img src={instagram} alt="social-instagram"/>
-                    <img src={dribble} alt="social-dribble"/>
-                    <img src={twitter} alt="social-twitter"/>
-                    <img src={youtube} alt="social-youtube"/>
+                    <a href="/"><img src={instagram} alt="social-instagram"/></a>
+                    <a href="/"><img src={dribble} alt="social-dribble"/></a>
+                    <a href="/"><img src={twitter} alt="social-twitter"/></a>
+                    <a href="/"><img src={youtube} alt="social-youtube"/></a>
                 </div>
             </div>
         </div>

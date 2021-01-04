@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/HeroSection.scss';
 
 const HeroSection = () => {
+
     return ( 
         <div className="hero-container">
             <div className="hero-content">
