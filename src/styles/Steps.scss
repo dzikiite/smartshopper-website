@@ -63,5 +63,17 @@
             padding: 6rem 0 1.5rem 0;
         }
     }
+
+    @media (max-width: 560px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
 }
 

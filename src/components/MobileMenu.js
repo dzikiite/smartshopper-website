@@ -4,9 +4,9 @@ import Button from './Button';
 import '../styles/MobileMenu.scss';
 
 
-const MobileMenu = ({ closeMenu }) => {
 
-    return ( 
+const MobileMenu = ({ closeMenu}) => {
+    return (
         <div className="mobile-menu-container">
             <img src={Logo} alt="logo-smartshopper"/>
             <Button 

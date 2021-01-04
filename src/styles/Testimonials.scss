@@ -65,4 +65,16 @@
             flex-wrap: wrap;
         }
     }
+
+    @media (max-width: 560px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
 }
