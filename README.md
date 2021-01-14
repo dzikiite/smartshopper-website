@@ -11,6 +11,7 @@ If you want to see the project, go to [smartshopper-site.netlify.app](https://sm
 * [React](https://reactjs.org/ "React") - A JavaScript library for building user interfaces
 * [SASS](https://sass-lang.com/ "SASS") - CSS Preprocessor
 * [AOS](https://michalsnik.github.io/aos/ "AOS") - Animate On Scroll Library
+* [Netlify](https://www.netlify.com/ "Netlify") - Deploying
 
 ## Authors 
 
